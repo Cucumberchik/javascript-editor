@@ -4,7 +4,7 @@ import { Editor } from "@monaco-editor/react";
 import LanguageSelector from "./LanguageSelector";
 import { CODE_SNIPPETS } from "../constants";
 import Output from "./Output";
-
+import "../theme_style.css"
 const CodeEditor = () => {
   const editorRef = useRef();
   const [value, setValue] = useState("");

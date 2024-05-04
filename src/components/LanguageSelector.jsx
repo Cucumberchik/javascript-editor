@@ -10,7 +10,7 @@ import {
 import { LANGUAGE_VERSIONS } from "../constants";
 
 const languages = Object.entries(LANGUAGE_VERSIONS);
-const ACTIVE_COLOR = "red.400";
+const ACTIVE_COLOR = "green.400";
 
 const LanguageSelector = ({ language, onSelect }) => {
   return (
