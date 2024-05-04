@@ -18,6 +18,21 @@ html {
     background: #1c1c1cbc;
     backdrop-filter: blur(44px);
   }
+  button,  .chakra-button.css-nm4ucp {
+    box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.1), inset 0 0px 0px 0 rgba(255, 255, 255, 0.5);
+    background: #474649;
+    border: 0.50px solid rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+    width: 120px;
+    height: 34px;
+    font: 500 14px sans-serif;
+    text-align: center;
+    color: #dfdedf;
+    transition: .3s;
+    }
+    .chakra-button.css-nm4ucp:hover{
+      background: #4e4d51;
+    }
 }
 .view-line span {
     .mtk1 {
