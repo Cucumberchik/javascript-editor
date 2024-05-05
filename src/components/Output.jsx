@@ -19,8 +19,8 @@ const Output = ({ editorRef, language }) => {
     } catch (error) {
       console.log(error);
       toast({
-        title: "An error occurred.",
-        description: error.message || "Unable to run code",
+        title: "Произошла ошибка.",
+        description: error.message || "Не удается запустить код",
         status: "error",
         duration: 6000,
       });
@@ -41,7 +41,7 @@ const Output = ({ editorRef, language }) => {
         isLoading={isLoading}
         onClick={runCode}
       >
-        Run Code
+        Запустить код
       </Button>
       <Box
         height="75vh"
@@ -53,7 +53,7 @@ const Output = ({ editorRef, language }) => {
       >
         {output
           ? output.map((line, i) => <Text key={i}>{line}</Text>)
-          : 'Click "Run Code" to see the output here'}
+          : 'Нажми на "Запустить код" чтобы получить выходные данные'}
       </Box>
     </Box>
   );
